@@ -1,0 +1,36 @@
+body {
+    background-color:cornsilk;
+    color:blueviolet;
+    padding: 200px;
+    font-family:sans;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 5em;
+    color:darkblue
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container div{
+    //the child
+    padding: 2px;
+    margin: 3px;
+    flex: 2 1 5em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+}
+
+.boxen{
+    display: flex;
+    flex-direction:column-reverse;
+}
+
